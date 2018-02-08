@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 @RequestMapping("/test")
-public class CustomerController {
+public class CustomController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String test(Model model) {
-        model.addAttribute("msg","ƒTƒ“ƒvƒ‹ƒƒbƒZ[ƒWI");
+        model.addAttribute("msg","ãƒ†ã‚¹ãƒˆæˆåŠŸ");
         return "test/test";
     }
 
