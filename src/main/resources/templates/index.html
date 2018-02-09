@@ -5,11 +5,30 @@
 <title>ケガケル！</title>
 </head>
 <body>
-	<div id="titleLogo">
+	<div id="title_logo">
 		<img src=""/>
 	</div>
-	<div class="add">
-	aaa
-	</div>
+	<form action="" method="GET">
+		<table class="add">
+			<tr>
+				<td>パネルのサイズ</td>
+				<td>枚数</td>
+			</tr>
+			<tr>
+				<td><input type="text" name="panel_size_h">(mm)×<input type="text" name="panel_size_w">(mm)</td>
+				<td><input type="number" name="panel_count" min="0" step="1"></td>
+			</tr>
+			<tr>
+				<td>材の長さ</td>
+				<td>1本当たりの値段</td>
+			</tr>
+			<tr>
+				<td><input type="text" name="wood_length">(mm)</td>
+				<td><input type="text" name="wood_price">(円)
+				</td>
+			</tr>
+		</table>
+		<button type="submit" name="action" value="">計算する</button>
+	</form>
 </body>
 </html>
