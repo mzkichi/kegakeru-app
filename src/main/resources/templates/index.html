@@ -10,7 +10,24 @@
 		<img src=""/>
 	</div>
 	<form action="" method="GET">
-		<table class="add">
+		<div class="row">
+			<span>
+				<input type="text" class="balloon" id="panel_size_h" /><label for="panel_size_h">パネルの高さ</label>(mm)×
+			</span>
+			<span>
+				<input type="text" class="balloon" name="panel_size_w" /><label for="panel_size_h">パネルの幅</label>(mm)
+			</span>
+		</div>
+		<div class="row">
+			<span>
+				<input type="text" class="balloon" name="wood_length" /><label for="wood_length">材の長さ</label>(mm)
+			</span>
+			<span>
+				<input type="text" class="balloon" name="wood_price" /><label for="wood_price">材の値段</label>(円)
+			</span>
+		</div>
+		<button type="submit" class="balloon" name="action" value="">計算する</button>
+<!-- 		<table class="add">
 			<tr>
 				<td>
 					<input type="text" class="balloon" id="panel_size_h" /><label for="panel_size_h">パネルの高さ</label>(mm)×
@@ -23,7 +40,7 @@
 				</td>
 			</tr>
 		</table>
-		<button type="submit" class="balloon" name="action" value="">計算する</button>
+		<button type="submit" class="balloon" name="action" value="">計算する</button> -->
 	</form>
 </body>
 </html>
